@@ -3,3 +3,7 @@ langchain-openai
 langchain-groq
 langchain-google-genai
 langchain-ollama
+
+llama-index
+llama-index-llms-openai
+llama-index-llms-google-genai

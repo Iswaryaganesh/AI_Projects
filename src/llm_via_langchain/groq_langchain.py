@@ -1,7 +1,9 @@
 import os
+from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
-os.environ["GROQ_API_KEY"] = "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"
+load_dotenv()
+api_key = os.getenv("GROQ_API_KEY")
 llm = ChatGroq(
     model = "llama-3.1-8b-instant",
     temperature = 0

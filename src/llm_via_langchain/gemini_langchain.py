@@ -1,11 +1,13 @@
 import os
 from langchain_google_genai import GoogleGenerativeAI
+from dotenv import load_dotenv
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB9Ro3oONqFDG3YkWiD5iS8OFkZV0C1txU"
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 llm = GoogleGenerativeAI(
     model = "gemini-2.5-flash",
     temperature = 0
 )
 
-response = llm.invoke("What is machine learning")
+response = llm.invoke("What is machine learning. Explain in 30 words")
 print(response)
