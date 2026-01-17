@@ -1,11 +1,16 @@
-ollama
-langchain-openai
+ollama~=0.6.1
+langchain-openai~=1.1.6
 langchain-groq
-langchain-google-genai
+langchain-google-genai~=4.1.2
 langchain-ollama
+langchain-community
 
 llama-index
 llama-index-llms-openai
 llama-index-llms-google-genai
 llama-index-llms-ollama
 llama-index-llms-groq
+dotenv~=0.9.9
+python-dotenv~=1.2.1
+llama-index-core~=0.14.12
+langchain-core~=1.2.7

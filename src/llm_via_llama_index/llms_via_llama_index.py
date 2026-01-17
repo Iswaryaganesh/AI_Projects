@@ -58,16 +58,16 @@ def call_llm_chat(llm, messages):
 llm = ask_ollama()
 # llm = ask_gemini()
 # llm = ask_open_ai()
-# call_llm(llm)
+call_llm(llm)
 
 # 2. chat message
-messages = [
-    ChatMessage(
-        role="system", content="You are a pirate with colorful personality"
-    ),
-    ChatMessage(
-        role="user", content="What is your name"
-    )
-]
-
-call_llm_chat(llm, messages)
+# messages = [
+#     ChatMessage(
+#         role="system", content="You are a pirate with colorful personality"
+#     ),
+#     ChatMessage(
+#         role="user", content="What is your name"
+#     )
+# ]
+#
+# call_llm_chat(llm, messages)
