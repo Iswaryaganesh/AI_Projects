@@ -1,12 +1,8 @@
-import os
-
 from langchain_chroma import Chroma
+from langchain_classic.chains import RetrievalQA
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import OllamaLLM
-from langchain_classic.chains import RetrievalQA
-from dotenv import load_dotenv
 
-# load_dotenv()
 vector_db_path = "/src/assets/vector_db"
 collection_name = "document_collection"
 
