@@ -7,7 +7,7 @@ from langchain_classic.chains import RetrievalQA
 from dotenv import load_dotenv
 
 # load_dotenv()
-vector_db_path = "E:/PycharmProjects/AI_Projects/GenAI_practice/src/assets/vector_db"
+vector_db_path = "/src/assets/vector_db"
 collection_name = "document_collection"
 
 embedding = HuggingFaceEmbeddings()
