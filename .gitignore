@@ -1,2 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv*/
+.venv312/
+
+# ChromaDB vector database (100MB+)
+src/assets/vector_db/
+chroma_db/
+.chroma/
+*/chroma/
+
+# LlamaIndex storage
+*.json
+index_store.json*
+storage/
+llama_index/
+
+# PyCharm
+.idea/
+*.iml
+out/
+
+# Environment
 .env
-.gitignore
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+Pipfile.lock
